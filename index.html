@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ElemNotify demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://rawgit.com/LennartC/ElemNotify/master/elem.notify.css" rel="stylesheet" >
+</head>
+<body>
+    <h2>Demo page for ElemNotify</h2>
+
+    <a href="https://github.com/LennartC/ElemNotify">GitHub page</a>
+
+    <p>
+        click on the buttons below to send a notification.
+    </p>
+    <div>
+        <button type="button" onclick="info()">INFO</button>
+        <button type="button" onclick="error()">ERROR</button>
+        <button type="button" onclick="success()">SUCCESS</button>
+    </div>
+
+    <p>
+        they do the following function calls:
+    </p>
+    <pre>
+        ElemNotify.info("an information message", "its title");
+        ElemNotify.error("an error message", "its title");
+        ElemNotify.success("a success message", "its title");
+    </pre>
+
+    <script src="https://rawgit.com/myster0n/elem.js/master/elem.js"></script>
+    <script src="https://rawgit.com/LennartC/ElemNotify/master/elem.notify.js"></script>
+
+    <script>
+    function info() {
+        ElemNotify.info("an information message", "its title");
+    }
+    function error() {
+        ElemNotify.error("an error message", "its title");
+    }
+    function success() {
+        ElemNotify.success("a success message", "its title");
+    }
+    </script>
+</body>
+</html>
