@@ -28,6 +28,6 @@ Usage
 
     ```javascript
     ElemNotify.info("an information message","its title");
-    ElemNotify.error("an errir message","its title");
+    ElemNotify.error("an error message","its title");
     ElemNotify.success("a success message","its title");
     ```
