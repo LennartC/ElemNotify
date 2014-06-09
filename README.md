@@ -3,6 +3,8 @@ ElemNotify
 
 Javascript notification plugin for Elem.JS.
 
+Demo at http://lennartc.github.io/ElemNotify/
+
 Requirements
 ---
 
