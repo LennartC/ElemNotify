@@ -1,0 +1,29 @@
+{
+  "name": "ElemNotify",
+  "version": "0.0.1",
+  "authors": [
+    "Lennart <coopmansl@gmail.com>"
+  ],
+  "description": "Javascript notification plugin for Elem.JS",
+  "main": "elem.notify.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "elem.js",
+    "notifications",
+    "notify"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "git://github.com/FortAwesome/Font-Awesome.git",
+    "elem.js": "myster0n/elem.js"
+  }
+}
