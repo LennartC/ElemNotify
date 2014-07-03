@@ -1,5 +1,5 @@
 .elem-notify.container {
-    position: absolute;
+    position: fixed;
     z-index: 99999;
     top: 12px;
     right: 12px;
